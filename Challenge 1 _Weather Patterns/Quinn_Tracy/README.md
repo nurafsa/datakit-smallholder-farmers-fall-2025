@@ -9,6 +9,8 @@ This folder contains the code and supplemental data necessary to train and expor
 **QTOPIC.pkl, QTOPIC.joblib** - these are the same final model, uploaded in two different file formats. The same model (different filename) is also uploaded to the Google Drive.  
 **UGA_weather_data.csv, KEN_weather_data.csv, TZA_weather_data.csv** - these datasets contain the weather data used to train and test the model. These datasets were helpfully prepared and shared by another DataKit participant, [İbrahim Yücel](https://github.com/ibraahimycl/datakit-smallholder-farmers-fall-2025/tree/main/Challenge%201%20_Weather%20Patterns/ibrahim-yucel/weather-data).
 
+
+
 ### What the model is
 
 This is a random forest classifier model. A few weather-related features (minimum temp, maximum temp, precipitation, and relative humidity) are used to predict the topics of the questions that farmers asked. Predictions will generate a prediction for one of 11 question topics that appeared in the We Farm dataset: 'bean', 'cattle', 'chicken', 'coffee', 'goat', 'maize', 'pig', 'potato', 'poultry', 'rabbit', and 'tomato'.
