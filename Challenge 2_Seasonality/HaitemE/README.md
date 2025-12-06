@@ -5,7 +5,7 @@
 **Dataset**:  
 - Source: CSV exported from Producer Direct platform (example filename: `b0cd514b-b9cc-4972-a0c2-c91726e6d825.csv`).  
 - Key fields used: `question_content`, `question_sent` (timestamp), `question_user_country_code`.  
-- Note: Some countries have extremely imbalanced counts (e.g., KE and UG large, TZ and GB small) — interpret small-country results with caution.
+- Note: Some countries have extremely imbalanced counts (e.g., KE and UG large, TZ) — interpret small-country results with caution.
 
 **What I implemented**:  
 - Seasonal classifier: assigns `farming_season` per row according to country-specific rules:
@@ -25,7 +25,7 @@
 **Key Findings (example summary)**:  
 - Kenya (KE): Dominated by `maize`, `plant`, `cow` — strong crop + livestock mix. Harvest-related words are not top-ranked during harvest in raw counts, suggesting either broad question themes or the masking effect of very frequent generic tokens.  
 - Uganda (UG): Clear two-season patterns; `banana` and `coffee` appear strongly as country-specific crops.  
-- Tanzania (TZ) and Great Britain (GB): Very small samples (TZ ~12, GB ~316) — treat observations as anecdotal. GB shows urban/indoor gardening signal (words like `flat`, `inside`).  
+- Tanzania (TZ): Very small samples (TZ ~12) — treat observations as anecdotal.  
 - Recommendation: Report proportions (share of season) or TF-IDF-weighted keywords to reveal seasonal-specific signals.
 
 **Libraries**:
