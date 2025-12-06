@@ -60,8 +60,4 @@ missingno
   - Load a sample of the CSV via `duckdb` for efficient sampling and scanning.
   - Preprocess questions, build `question_content_cleaned`, and compute `farming_season`.
   - Generate per-country and per-season keyword tables and visualizations.
-- Data privacy: Ensure no sensitive information is committed. Commit only derived and anonymized outputs (or aggregated CSVs).
-
-**License**:  
-- Add your preferred license file (e.g., `MIT` or `Apache-2.0`) as appropriate.
 
