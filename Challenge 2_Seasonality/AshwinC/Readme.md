@@ -4,7 +4,7 @@ was correlation between the frequency of specific question topics asked during t
 year and the planting and harvesting seasons for Kenya and Uganda.
 
 ## Dataset Used
-eng_data.csv was created by a volunteer (Bashir), and is a english only version of the original Producer's Direct-WeFarm Dataset. It is available on slack in the challenge0-translation channel.
+eng_data.csv was created by a volunteer (Bashir), and is an English only version of the original Producer's Direct-WeFarm Dataset. It is available on slack in the challenge0-translation channel.
 
 ---
 
@@ -56,7 +56,7 @@ eng_data.csv was created by a volunteer (Bashir), and is a english only version 
 
 
 ### Categorization
-I used an LLM to help me sort the actual topics into broader categories:
+I used an LLM to help sort the actual topics into broader categories:
 
 1) Livestock - (pig, cattle, goat, sheep, etc.)  
 2) Poultry - (chicken, turkey, guinea-fowl, etc.)  
