@@ -1,7 +1,7 @@
 # [Beatrice Liu] - [Challenge 4 - Crop Questions] Analysis -- ** incomplete **
 
 ## Overview
-Created bi-, tri-, and quad-grams and interactive visualizations for English questions by Kenyan farmers on:  cattle, tomato, maize, chickens, and no topic to discern most common questions; these can be used by Producers Direct to create FAQ for smallholder farmers.  Sadly, I can't figure out how to imbed the interactive graphs here, but they are saved in the network_graphs folder.
+Created bi-, tri-, and quad-grams and interactive visualizations for English questions by Kenyan farmers on top 5 topics -  cattle, tomato, maize, chickens, none -  to discern most common questions; these can be used by Producers Direct to create FAQ for smallholder farmers.  Sadly, I can't figure out how to imbed the interactive graphs here, but they are saved in the network_graphs folder.
 
 ## Research Questions
 - Question 1: What are the most common subjects farmers are asking about?  
@@ -99,25 +99,34 @@ Description of the finding, supported by data and visualizations.
 ## Files in This Contribution
 
 ```
-your_name_analysis/
+Bliu_analysis/
 ├── README.md (this file)
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   └── 03_analysis.ipynb
-├── scripts/
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   └── visualization.py
-├── visualizations/
-│   ├── viz1.png
-│   ├── viz2.png
-│   └── viz3.png
-├── results/
+│   ├── question_preprocess.ipynb
+│   ├── kenya_q_eng.ipynb
+│   └── kenya_q_swa.ipynb
+│   └── nlp_swa.ipynb
+│   └── translate.ipynb
+│   └── nlp_eng.ipynb
+│   └── nlp_eng_q_notopic.ipynb
+│   └── nlp_eng_cattle.ipynb
+│   └── nlp_eng_chicken.ipynb
+│   └── nlp_eng_maize.ipynb
+│   └── nlp_eng_maize.ipynb
+├── 10 interactive visualizations/
+│   ├── *xx*bigram_eng_ken_*topic*_network.html
+│── static directed network visualizations/
+│   └── top40trigrams_ken_eng_network.png
+│   └── top40bigrams_ken_eng_network.png
+│   └── top40bigrams_ken_eng_Notopic_network.png
+│   └── top40trigrams_ken_eng_network.png
+├── results - *work in progress*/
 │   ├── summary_statistics.csv
 │   └── findings.md
-└── data/ (if applicable - only small derived datasets)
-    └── processed_sample.csv
+└── translated n-grams from swahili to english data/ 
+    └── ken_240quadgrams_swa2eng.txt
+    └── ken_500bigrams_swa2eng.txt
+    └── ken_500trigrams_swa2eng.txt
 ```
 
 ## How to Run This Analysis
