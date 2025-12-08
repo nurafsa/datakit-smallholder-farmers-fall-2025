@@ -1,5 +1,5 @@
 # Overview
-This notebook attempts Challenge #2 - Seasonality. My goal was to find whether there
+I attempted Challenge #2 - Seasonality. My goal was to find whether there
 was correlation between the frequency of specific question topics asked during the
 year and the planting and harvesting seasons for Kenya and Uganda.
 
