@@ -62,12 +62,12 @@ This finding suggest there is room for Producers Direct to improve farmers' fina
 **Interpretation**: This graphs show the most common words in the text visually. It shows the constrast between translated and non-translated text
 
 ### [Word Frequency Graph]
-![Visualization 1B](Visualizations/visual1b.png)
+![Visualization 1B](Visuals/visual1b.png)
 
 **Interpretation**: This graph shows the frequency count for the most common words. It assist in providing more granular detail about words' commonalities 
 
 ### [Network Keyword Graph]
-![Visualization 2](Visualizations/visual2.png)
+![Visualization 2](Visuals/visual2.png)
 
 **Interpretation**: This graph shows the main financial inclusion keywords found in the text along side their most co-occuring words. This aids in identifying the type of financial inclusion keywords used in the text and the context in which they are used
 
