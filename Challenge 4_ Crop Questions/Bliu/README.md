@@ -86,7 +86,13 @@ See *'farmers.bliu.pdf'* for summary of findings
 ### Technical Challenges
 - Translation accuracy issues - **YES** *see above*
 
+### References
+1. Bernard Masua, Noel Masasi, "Enhancing text pre-processing for Swahili language: Datasets for common Swahili stop-words, slangs and typos with equivalent proper words",
+Data in Brief, Volume 33, 2020, 106517, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2020.106517
+2. Mathayo, Irene; Kondoro, Alfred Malengo (2025), “Swahili Verb Conjugation Dataset: A Comprehensive Analysis of Agglutination and Verb Structure Across Tenses and Persons”, Mendeley Data, V3, doi: 10.17632/rvt89578g5.3
+3. Bernard Masua, Noel Masasi, "In the heart of Swahili: An exploration of data collection methods and corpus curation for natural language processing", Data in Brief,Volume 55,2024,110751,ISSN 2352-3409,https://doi.org/10.1016/j.dib.2024.110751
 
+  
 ## Files in This Contribution
 
 ```
@@ -122,7 +128,7 @@ Bliu_analysis/
 ### How to Run This Analysis -- *I have no clue, did everything in Jupyter*
 
 
-### Open and run notebooks in order:
+## Open and run notebooks in order:
 ![Order of Jupyter Notebooks](Jupyter_notebook_order_bliu.png)
 
 ```
