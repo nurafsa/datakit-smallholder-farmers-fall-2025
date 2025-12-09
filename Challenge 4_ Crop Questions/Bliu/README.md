@@ -125,7 +125,7 @@ Bliu_analysis/
     └── ken_500trigrams_swa2eng.txt
 ```
 
-### How to Run This Analysis -- *I have no clue, did everything in Jupyter*
+### How to Run This Analysis -- *I have no clue, worked in Jupyter Notebook*
 
 
 ## Open and run notebooks in order:
