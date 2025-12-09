@@ -1,9 +1,9 @@
 # Beatrice Liu: Challenge 4 - Crop Questions Analysis 
 
 ## Overview
-Created bi-, tri-, and quad-grams and interactive visualizations for English questions by Kenyan farmers on top 5 topics -  cattle, tomato, maize, chickens, none -  to discern most common questions; these can be used by Producers Direct to create FAQ for smallholder farmers.  Sadly, I can't figure out how to display the interactive graphs here, but they are saved in the network_graphs folder.
+Conducted word frequency analysis on uestions by Kenyan Farmers in the Producers Direct Dataset of WeFarm SMS; created interactive and static visualizations of top bi-, tri-, and quad-grams on top 5 topics -  cattle, tomato, maize, chickens, none -  to identify patterns and relationships and communicate insights concisely. Note:  I can't figure out how to display the interactive graphs here, but they are saved in the network_graphs folder.
 
-See 'farmers.bliu.pdf' for findings
+See 'farmers.bliu.pdf' for summary of findings
 
 ## Research Questions
 - What insights can be gleaned from Crop-specific and Crop-Independent Questions?  
@@ -16,11 +16,14 @@ See 'farmers.bliu.pdf' for findings
 - Swahili [stopword](https://data.mendeley.com/datasets/mmf4hnsm2n/1) and [verb conjugation](https://data.mendeley.com/datasets/rvt89578g5/1) files  
 
 ### Approach: *Notebook overviews describe steps in greater detail - see 'Q4.Ngrams.Jupyter.Notebooks.pdf' for list of notebooks and their running order*
-1. **Step 1**: Data loading and initial exploration
-2. **Step 2**: Data cleaning and preprocessing
-3. **Step 3**: Data segmentation into smaller datasets for analyses: unique questions asked by farmers in 4 countries
-4. **Step 4**: Visualization and interpretation
- 
+1. **Data loading and initial exploration**
+2. **Data cleaning and preprocessing**
+3. **Data segmentation into smaller datasets for analyses: unique questions asked by farmers in 4 countries**
+4. **Filtered dataset for questions by Kenyan farmers**
+5. **NLP - remove punctuation marks, lowercas, tokenize using custom list of stopwords and lemma dictionaries**
+6. **Count word occurance in list of words created in Step 5**
+7. **Generate list of tuples for more frequent words for visualization and interpretation**
+
 
 ### Output Files and Visualizations
 - Cleaned data files and interactive visualizations can be found in [google drive folder](https://drive.google.com/drive/folders/1tpwqTqoFfZCWvDvncJjaSbzzua0Y6Q_i?usp=sharing)
@@ -41,8 +44,7 @@ See 'farmers.bliu.pdf' for findings
 
 ### Human Review Process
 - All AI-generated code was reviewed and tested for accuracy
-- AI-generated insights were validated against the data
-- Modified AI suggestions in the following ways: to fix a surprising number of coding errors
+- Modified AI suggestions in the following ways: fix a surprising number of coding errors
 
 
 ## Key Findings: *Refer to 'farmers.bliu.pdf'*
@@ -68,10 +70,12 @@ See 'farmers.bliu.pdf' for findings
 
 ### Methodological Limitations
 - Assumptions made: 'blocked' and 'destroyed' user statuses were dropped from analysis.
+- Impractical to call on GoogleTranslate to translate the full text of > 2 mm questions:  extracted and translated most frequent combination of words in the questions
   
 
 ### Technical Challenges
-- Translation accuracy issues - YES! 
+- Translation accuracy issues - YES! Swahili is an under-resourced language in Natural Language Processing and commonly used Python packages such as SpaCy, NLTK, or Gensim do not have inherent Swahili support
+
 
 
 ## Files in This Contribution
